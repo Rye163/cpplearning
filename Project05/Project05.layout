@@ -1,0 +1,47 @@
+[
+    {
+        "caretX": 2,
+        "caretY": 16,
+        "filename": "D:/devcpp/RedPanda-CPP/projects/Practice/Project05/circle.cpp",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 30,
+        "caretY": 15,
+        "filename": "D:/devcpp/RedPanda-CPP/projects/Practice/Project05/circle.h",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 13,
+        "caretY": 10,
+        "filename": "D:/devcpp/RedPanda-CPP/projects/Practice/Project05/point.cpp",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 14,
+        "caretY": 22,
+        "filename": "D:/devcpp/RedPanda-CPP/projects/Practice/Project05/point.h",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 3,
+        "filename": "D:/devcpp/RedPanda-CPP/projects/Practice/Project05/main.cpp",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 1
+    }
+]

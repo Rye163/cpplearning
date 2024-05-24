@@ -1,0 +1,32 @@
+[
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "D:/devcpp/RedPanda-CPP/projects/Practice/Project01/02.cpp",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 2,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "D:/devcpp/RedPanda-CPP/projects/Practice/Project01/main.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 0,
+        "topLine": 1
+    },
+    {
+        "caretX": 2,
+        "caretY": 7,
+        "filename": "D:/devcpp/RedPanda-CPP/projects/Practice/Project01/01.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 1,
+        "topLine": 1
+    }
+]
