@@ -1,0 +1,72 @@
+[
+    {
+        "caretX": 2,
+        "caretY": 14,
+        "filename": "D:/redpandac++/RedPanda-CPP/Project/Practice/Project07/05.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 5,
+        "topLine": 1
+    },
+    {
+        "caretX": 2,
+        "caretY": 14,
+        "filename": "D:/redpandac++/RedPanda-CPP/Project/Practice/Project07/06.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 6,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "D:/redpandac++/RedPanda-CPP/Project/Practice/Project07/main.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 0,
+        "topLine": 1
+    },
+    {
+        "caretX": 2,
+        "caretY": 14,
+        "filename": "D:/redpandac++/RedPanda-CPP/Project/Practice/Project07/03.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 3,
+        "topLine": 1
+    },
+    {
+        "caretX": 39,
+        "caretY": 22,
+        "filename": "D:/redpandac++/RedPanda-CPP/Project/Practice/Project07/01.cpp",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 1,
+        "topLine": 16
+    },
+    {
+        "caretX": 2,
+        "caretY": 14,
+        "filename": "D:/redpandac++/RedPanda-CPP/Project/Practice/Project07/02.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 2,
+        "topLine": 1
+    },
+    {
+        "caretX": 2,
+        "caretY": 14,
+        "filename": "D:/redpandac++/RedPanda-CPP/Project/Practice/Project07/04.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 4,
+        "topLine": 1
+    }
+]

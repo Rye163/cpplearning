@@ -1,0 +1,44 @@
+# Project: Project04
+# Makefile created by Red Panda C++ 2.24
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = Project04_private.res
+OBJ      = main.o 01.o 02.o 03.o $(RES)
+LINKOBJ  = main.o 01.o 02.o 03.o Project04_private.res
+CLEANOBJ  =  main.o 01.o 02.o 03.o  Project04_private.res Project04.exe
+LIBS     = 
+INCS     =  
+CXXINCS  =  
+BIN      = Project04.exe
+CXXFLAGS = $(CXXINCS)  -g3 -pipe -Wall -D__DEBUG__
+CFLAGS   = $(INCS)  -g3 -pipe -Wall -D__DEBUG__
+RM       = del /q /f
+WINDRESFLAGS  = 
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) > NUL 2>&1
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS) 
+
+01.o: 01.cpp
+	$(CPP) -c 01.cpp -o 01.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+02.o: 02.cpp
+	$(CPP) -c 02.cpp -o 02.o $(CXXFLAGS) 
+
+03.o: 03.cpp
+	$(CPP) -c 03.cpp -o 03.o $(CXXFLAGS) 
+
+Project04_private.res: Project04_private.rc 
+	$(WINDRES) -i Project04_private.rc --input-format=rc -o Project04_private.res -O coff $(WINDRESFLAGS) 
+

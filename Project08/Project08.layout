@@ -1,0 +1,38 @@
+[
+    {
+        "caretX": 2,
+        "caretY": 35,
+        "filename": "D:/redpandac++/RedPanda-CPP/Project/Practice/Project08/person.hpp",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 52,
+        "caretY": 14,
+        "filename": "D:/redpandac++/RedPanda-CPP/Project/Practice/Project08/main.cpp",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 10
+    },
+    {
+        "caretX": 2,
+        "caretY": 16,
+        "filename": "D:/redpandac++/RedPanda-CPP/Project/Practice/Project08/person.cpp",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 5,
+        "filename": "D:/redpandac++/RedPanda-CPP/Project/Practice/Project08/person.h",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 1
+    }
+]

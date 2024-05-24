@@ -1,0 +1,38 @@
+# Project: Project08
+# Makefile created by Red Panda C++ 2.14
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = Project08_private.res
+OBJ      = main.o person.o $(RES)
+LINKOBJ  = main.o person.o Project08_private.res
+CLEANOBJ  =  main.o person.o  Project08_private.res Project08.exe
+LIBS     = 
+INCS     =  
+CXXINCS  =  
+BIN      = Project08.exe
+CXXFLAGS = $(CXXINCS)  -g3 -pipe -Wall -D__DEBUG__
+CFLAGS   = $(INCS)  -g3 -pipe -Wall -D__DEBUG__
+RM       = del /q /f
+WINDRESFLAGS  = 
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) > NUL 2>&1
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "$(BIN)" $(LIBS)
+
+main.o: main.cpp person.hpp
+	$(CPP) -c main.cpp -o "main.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+person.o: person.cpp person.h
+	$(CPP) -c person.cpp -o "person.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+Project08_private.res: Project08_private.rc 
+	$(WINDRES) -i Project08_private.rc --input-format=rc -o "Project08_private.res" -O coff $(WINDRESFLAGS) 
+
